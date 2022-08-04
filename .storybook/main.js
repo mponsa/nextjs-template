@@ -19,6 +19,7 @@ module.exports = {
         },
       },
     },
+    'storybook-addon-next-router',
   ],
   framework: '@storybook/react',
   core: {

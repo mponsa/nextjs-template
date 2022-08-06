@@ -47,3 +47,11 @@ export const parameters = {
     Provider: RouterContext.Provider,
   },
 };
+
+export const decorators = [
+  (Story) => (
+    <AuthProvider>
+      <Story />
+    </AuthProvider>
+  ),
+];
